@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CyberPath",
+    "slug": "cyberpath",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0D1117"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cyberpath.app"
+    },
+    "android": {
+      "package": "com.cyberpath.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1117"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "forceRTL": true
+    }
+  }
+}
